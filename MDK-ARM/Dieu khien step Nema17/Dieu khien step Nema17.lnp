@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"dieu khien step nema17\startup_stm32f103xb.o"
+"dieu khien step nema17\main.o"
+"dieu khien step nema17\stm32f1xx_it.o"
+"dieu khien step nema17\stm32f1xx_hal_msp.o"
+"dieu khien step nema17\stm32f1xx_hal_gpio_ex.o"
+"dieu khien step nema17\stm32f1xx_hal_tim.o"
+"dieu khien step nema17\stm32f1xx_hal_tim_ex.o"
+"dieu khien step nema17\stm32f1xx_hal.o"
+"dieu khien step nema17\stm32f1xx_hal_rcc.o"
+"dieu khien step nema17\stm32f1xx_hal_rcc_ex.o"
+"dieu khien step nema17\stm32f1xx_hal_gpio.o"
+"dieu khien step nema17\stm32f1xx_hal_dma.o"
+"dieu khien step nema17\stm32f1xx_hal_cortex.o"
+"dieu khien step nema17\stm32f1xx_hal_pwr.o"
+"dieu khien step nema17\stm32f1xx_hal_flash.o"
+"dieu khien step nema17\stm32f1xx_hal_flash_ex.o"
+"dieu khien step nema17\stm32f1xx_hal_exti.o"
+"dieu khien step nema17\system_stm32f1xx.o"
+--strict --scatter "Dieu khien step Nema17\Dieu khien step Nema17.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Dieu khien step Nema17.map" -o "Dieu khien step Nema17\Dieu khien step Nema17.axf"
